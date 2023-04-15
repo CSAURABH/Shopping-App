@@ -7,6 +7,7 @@ import 'package:salvage_shoping_app/res/components/common_heading_and_see_all_fu
 import 'package:salvage_shoping_app/res/components/section/new_in_bags_section.dart';
 import 'package:salvage_shoping_app/res/components/section/new_in_clothes_section.dart';
 import 'package:salvage_shoping_app/res/components/section/new_in_electronics_section.dart';
+import 'package:salvage_shoping_app/res/components/section/new_in_jewellery_section.dart';
 import 'package:salvage_shoping_app/res/components/section/new_in_shoes_section.dart';
 import 'package:salvage_shoping_app/res/components/title_heading.dart';
 import 'package:salvage_shoping_app/res/style/app_styles.dart';
@@ -275,6 +276,8 @@ class _HomePageState extends State<DashBoardScreen> {
               const NewInBagsSection(),
               // New in Electronics Section
               const NewInElectronicsScetion(),
+              // New in jewellery Section
+              const NewInJewelleryScetion(),
             ],
           ),
         ),
