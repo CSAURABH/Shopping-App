@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 
-import '../style/app_styles.dart';
-import '../style/color.dart';
-import '../style/svg.dart';
-import 'common_heading_and_see_all_function.dart';
+import '../../style/app_styles.dart';
+import '../../style/color.dart';
+import '../../style/svg.dart';
+import '../common_heading_and_see_all_function.dart';
 
 class NewInShoesSection extends StatelessWidget {
   const NewInShoesSection({super.key});
@@ -86,6 +86,7 @@ class NewInShoesSection extends StatelessWidget {
             ),
           ),
         ),
+        SizedBox(height: 22.h),
       ],
     );
   }

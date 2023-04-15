@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:salvage_shoping_app/res/components/common_heading_and_see_all_function.dart';
-import 'package:salvage_shoping_app/res/components/new_in_shoes_section.dart';
+import 'package:salvage_shoping_app/res/components/section/new_in_clothes_section.dart';
+import 'package:salvage_shoping_app/res/components/section/new_in_shoes_section.dart';
 import 'package:salvage_shoping_app/res/components/title_heading.dart';
 import 'package:salvage_shoping_app/res/style/app_styles.dart';
 import 'package:salvage_shoping_app/res/style/color.dart';
@@ -266,6 +267,8 @@ class _HomePageState extends State<DashBoardScreen> {
               SizedBox(height: 22.h),
               // New in Shoes Section
               const NewInShoesSection(),
+              // New in Clothes Section
+              const NewInClothesScetion(),
             ],
           ),
         ),
