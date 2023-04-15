@@ -20,12 +20,13 @@ class NewInBagsSection extends StatelessWidget {
         ),
         SizedBox(height: 14.h),
         SizedBox(
-          height: 150.h,
+          height: 170.h,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
             itemCount: 5,
             itemBuilder: (context, index) => Container(
               width: 125.w,
+              color: AppColors.whiteColor,
               margin: EdgeInsets.only(right: 5.w),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -40,46 +41,50 @@ class NewInBagsSection extends StatelessWidget {
                       fit: BoxFit.fill,
                     ),
                   ),
-                  Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Text(
-                                'Donatello',
-                                style: AppStyles.fontSize9w400.copyWith(
-                                  color: AppColors.blackColor,
+                  Padding(
+                    padding: EdgeInsets.all(8.sp),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  'Donatello',
+                                  style: AppStyles.fontSize9w400.copyWith(
+                                    color: AppColors.blackColor,
+                                  ),
                                 ),
-                              ),
-                              Text(
-                                'Cream elegant',
-                                style: AppStyles.fontSize9w400.copyWith(
-                                  color: AppColors.lightGrey,
+                                Text(
+                                  'Cream elegant',
+                                  style: AppStyles.fontSize9w400.copyWith(
+                                    color: AppColors.lightGrey,
+                                  ),
                                 ),
-                              ),
-                            ],
-                          ),
-                          SvgPicture.asset(
-                            SvgIcons.unSavedHeart,
-                            height: 15.h,
-                          )
-                        ],
-                      ),
-                      Text(
-                        '\$ 398.90',
-                        style: AppStyles.fontSize9w400,
-                      ),
-                      Text(
-                        '\$ 402.90',
-                        style: AppStyles.fontSize9w400.copyWith(
-                          decoration: TextDecoration.lineThrough,
+                              ],
+                            ),
+                            SvgPicture.asset(
+                              SvgIcons.unSavedHeart,
+                              height: 15.h,
+                            )
+                          ],
                         ),
-                      ),
-                    ],
+                        SizedBox(height: 8.h),
+                        Text(
+                          '\$ 398.90',
+                          style: AppStyles.fontSize9w400,
+                        ),
+                        Text(
+                          '\$ 402.90',
+                          style: AppStyles.fontSize9w400.copyWith(
+                            decoration: TextDecoration.lineThrough,
+                          ),
+                        ),
+                      ],
+                    ),
                   )
                 ],
               ),
