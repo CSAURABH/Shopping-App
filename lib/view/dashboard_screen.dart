@@ -9,6 +9,7 @@ import 'package:salvage_shoping_app/res/components/section/new_in_clothes_sectio
 import 'package:salvage_shoping_app/res/components/section/new_in_electronics_section.dart';
 import 'package:salvage_shoping_app/res/components/section/new_in_jewellery_section.dart';
 import 'package:salvage_shoping_app/res/components/section/new_in_shoes_section.dart';
+import 'package:salvage_shoping_app/res/components/section/upcoming_promotion_section.dart';
 import 'package:salvage_shoping_app/res/components/title_heading.dart';
 import 'package:salvage_shoping_app/res/style/app_styles.dart';
 import 'package:salvage_shoping_app/res/style/color.dart';
@@ -123,7 +124,7 @@ class _HomePageState extends State<DashBoardScreen> {
                 ],
               ),
               SizedBox(height: 10.h),
-              //Discount Section
+              //Discount ends in Section
               Row(
                 children: [
                   const TitleHeading(title: 'Discount ends in'),
@@ -245,29 +246,7 @@ class _HomePageState extends State<DashBoardScreen> {
               ),
               SizedBox(height: 16.h),
               //Upcomming promotion section
-              CommonHeadingAndSeeAllFunction(
-                title: 'Upcoming promotion',
-                onTap: () {},
-              ),
-              SizedBox(height: 16.h),
-              SizedBox(
-                height: 75.h,
-                child: ListView.builder(
-                  scrollDirection: Axis.horizontal,
-                  itemCount: 5,
-                  itemBuilder: (context, index) => Container(
-                    width: 180.w,
-                    margin: EdgeInsets.only(right: 5.w),
-                    child: const Image(
-                      image: AssetImage(
-                        'assets/images/slider1.jpg',
-                      ),
-                      fit: BoxFit.fill,
-                    ),
-                  ),
-                ),
-              ),
-              SizedBox(height: 22.h),
+              const UpComingPromotionSection(),
               // New in Shoes Section
               const NewInShoesSection(),
               // New in Clothes Section
