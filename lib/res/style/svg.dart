@@ -8,4 +8,5 @@ class SvgIcons {
   static const String menu = 'assets/svg/menu.svg';
   static const String colon = 'assets/svg/colon.svg';
   static const String unSavedHeart = 'assets/svg/unsaved_heart.svg';
+  static const String leftArrow = 'assets/svg/left_arrow.svg';
 }

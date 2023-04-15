@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:salvage_shoping_app/view/dashboard_screen.dart';
 import 'package:salvage_shoping_app/view/login_screen.dart';
+import 'package:salvage_shoping_app/view/discount_see_all_section.dart';
 import 'package:salvage_shoping_app/view/signup_screen.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const DashBoardScreen(),
+        home: const DiscountSeeAllSection(),
       ),
     );
   }
