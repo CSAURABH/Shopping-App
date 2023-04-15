@@ -7,15 +7,15 @@ import '../../style/color.dart';
 import '../../style/svg.dart';
 import '../common_heading_and_see_all_function.dart';
 
-class NewInClothesScetion extends StatelessWidget {
-  const NewInClothesScetion({super.key});
+class NewInBagsSection extends StatelessWidget {
+  const NewInBagsSection({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
         CommonHeadingAndSeeAllFunction(
-          title: 'New in Clothes',
+          title: 'New in Bags',
           onTap: () {},
         ),
         SizedBox(height: 14.h),
