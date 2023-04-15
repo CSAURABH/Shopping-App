@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:salvage_shoping_app/view/dashboard_screen.dart';
 import 'package:salvage_shoping_app/view/login_screen.dart';
 import 'package:salvage_shoping_app/view/signup_screen.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const SignUpScreen(),
+        home: const DashBoardScreen(),
       ),
     );
   }

@@ -1,8 +1,10 @@
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 import 'package:salvage_shoping_app/res/components/onboarding_screen_pages.dart';
 import 'package:salvage_shoping_app/res/style/color.dart';
+import 'package:salvage_shoping_app/res/style/svg.dart';
 
 // ignore: must_be_immutable
 class OnboardingScreen extends StatefulWidget {
@@ -94,10 +96,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       color: Colors.black,
                     ),
                     child: Padding(
-                      padding: EdgeInsets.all(10.sp),
-                      child: const Icon(
-                        Icons.arrow_right_alt,
-                        color: Colors.white,
+                      padding: EdgeInsets.all(15.sp),
+                      child: SvgPicture.asset(
+                        SvgIcons.arrowRight,
+                        color: AppColors.whiteColor,
                       ),
                     ),
                   ),

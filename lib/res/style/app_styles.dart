@@ -25,4 +25,28 @@ class AppStyles {
     fontSize: 14.sp,
     fontWeight: FontWeight.w500,
   );
+  static final fontSize25 = TextStyle(
+    fontSize: 25.sp,
+    fontWeight: FontWeight.w700,
+  );
+  static final fontSize20 = TextStyle(
+    fontSize: 20.sp,
+    fontWeight: FontWeight.w600,
+  );
+  static final fontSize12 = TextStyle(
+    fontSize: 12.sp,
+    fontWeight: FontWeight.w500,
+  );
+  static final fontSize9 = TextStyle(
+    fontSize: 9.sp,
+    fontWeight: FontWeight.w600,
+  );
+  static final fontSize9w400 = TextStyle(
+    fontSize: 9.sp,
+    fontWeight: FontWeight.w400,
+  );
+  static final fontSize8w400 = TextStyle(
+    fontSize: 8.sp,
+    fontWeight: FontWeight.w400,
+  );
 }
