@@ -9,4 +9,9 @@ class SvgIcons {
   static const String colon = 'assets/svg/colon.svg';
   static const String unSavedHeart = 'assets/svg/unsaved_heart.svg';
   static const String leftArrow = 'assets/svg/left_arrow.svg';
+  static const String category = 'assets/svg/category.svg';
+  static const String shoppingBag = 'assets/svg/shopping_bag.svg';
+  static const String wishList = 'assets/svg/wish_list.svg';
+  static const String account = 'assets/svg/account.svg';
+  static const String home = 'assets/svg/home.svg';
 }

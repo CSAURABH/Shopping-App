@@ -78,7 +78,7 @@ class DiscountSeeAllSection extends StatelessWidget {
                       crossAxisCount: 2,
                       crossAxisSpacing: 10,
                       mainAxisSpacing: 10,
-                      childAspectRatio: (4 / 6.5).h,
+                      childAspectRatio: (4 / 6.1).h,
                     ),
                     itemBuilder: (context, index) => Container(
                       color: AppColors.whiteColor,
@@ -86,7 +86,7 @@ class DiscountSeeAllSection extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           SizedBox(
-                            height: 190.h,
+                            height: 180.h,
                             width: double.infinity,
                             child: const Image(
                               image: AssetImage(
