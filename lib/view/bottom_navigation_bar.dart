@@ -3,6 +3,11 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:salvage_shoping_app/res/style/color.dart';
 import 'package:salvage_shoping_app/res/style/svg.dart';
+import 'package:salvage_shoping_app/view/account_screen.dart';
+import 'package:salvage_shoping_app/view/cart_screen.dart';
+import 'package:salvage_shoping_app/view/category_screen.dart';
+import 'package:salvage_shoping_app/view/dashboard_screen.dart';
+import 'package:salvage_shoping_app/view/wish_list_screen.dart';
 
 // ignore: must_be_immutable
 class BottomNavigationBarComponent extends StatelessWidget {
@@ -12,13 +17,20 @@ class BottomNavigationBarComponent extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    List<Widget> screens = [
+      const DashBoardScreen(),
+      const CategoryScreen(),
+      const CartScreen(),
+      const WishListScreen(),
+      const AccountScreen(),
+    ];
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Bottom Navigation Bar'),
-        centerTitle: true,
+      body: ValueListenableBuilder<int>(
+        valueListenable: currentIndex,
+        builder: (context, value, child) => screens.elementAt(value),
       ),
       bottomNavigationBar: SizedBox(
-        height: 81.h,
+        height: 70.h,
         child: Theme(
           data: Theme.of(context).copyWith(
             canvasColor: AppColors.blue,
