@@ -5,8 +5,8 @@ import 'package:salvage_shoping_app/res/style/app_styles.dart';
 import 'package:salvage_shoping_app/res/style/color.dart';
 import 'package:salvage_shoping_app/res/style/svg.dart';
 
-class WhenCartIsEmptyScreen extends StatelessWidget {
-  const WhenCartIsEmptyScreen({super.key});
+class WhenWishListIsEmptyScreen extends StatelessWidget {
+  const WhenWishListIsEmptyScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class WhenCartIsEmptyScreen extends StatelessWidget {
         ),
         SizedBox(height: 10.h),
         Text(
-          'Your Cart is empty',
+          'Your wishlist is empty',
           style: AppStyles.fontSize16.copyWith(color: AppColors.icongrey),
         ),
         SizedBox(height: 12.h),

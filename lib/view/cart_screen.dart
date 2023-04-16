@@ -1,15 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:salvage_shoping_app/res/components/when_cart_is_empty.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Cart Screen'),
-        centerTitle: true,
-      ),
-    );
+    return const WhenCartIsEmptyScreen();
   }
 }
