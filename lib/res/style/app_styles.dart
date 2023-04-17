@@ -21,6 +21,10 @@ class AppStyles {
     fontSize: 18.sp,
     fontWeight: FontWeight.w600,
   );
+  static final fontSize18w700 = TextStyle(
+    fontSize: 18.sp,
+    fontWeight: FontWeight.w700,
+  );
   static final fontSize14 = TextStyle(
     fontSize: 14.sp,
     fontWeight: FontWeight.w500,

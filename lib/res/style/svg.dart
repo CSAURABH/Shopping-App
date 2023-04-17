@@ -14,4 +14,5 @@ class SvgIcons {
   static const String wishList = 'assets/svg/wish_list.svg';
   static const String account = 'assets/svg/account.svg';
   static const String home = 'assets/svg/home.svg';
+  static const String shoes = 'assets/svg/shoes.svg';
 }
