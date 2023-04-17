@@ -20,7 +20,7 @@ class NewInShoesSection extends StatelessWidget {
         ),
         SizedBox(height: 14.h),
         SizedBox(
-          height: 170.h,
+          height: 175.h,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
             itemCount: 5,
