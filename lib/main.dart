@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:salvage_shoping_app/view/bottom_navigation_bar.dart';
+import 'package:salvage_shoping_app/view/cart_screen.dart';
 
 void main() {
   runApp(const MyApp());
