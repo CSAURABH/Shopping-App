@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:salvage_shoping_app/view/bottom_navigation_bar.dart';
-import 'package:salvage_shoping_app/view/cart_screen.dart';
+
+import 'package:salvage_shoping_app/view/details_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: BottomNavigationBarComponent(),
+        home: const DescriptionScreen(),
       ),
     );
   }

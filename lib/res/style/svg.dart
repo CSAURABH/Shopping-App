@@ -16,4 +16,7 @@ class SvgIcons {
   static const String home = 'assets/svg/home.svg';
   static const String shoes = 'assets/svg/shoes.svg';
   static const String remove = 'assets/svg/remove.svg';
+  static const String cart = 'assets/svg/cart.svg';
+  static const String circularCart = 'assets/svg/circular_cart.svg';
+  static const String circularHeart = 'assets/svg/circular_heart.svg';
 }
